@@ -1,0 +1,119 @@
+.App{
+  text-align: centre;
+  }
+  .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  }
+  .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+  .App-link {
+  color: #61dafb;
+  }
+  @keyframes App-logo-spin {
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg);
+  }
+}
+
+
+.header-color{
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right corner, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color:#9a9b9c;
+  font-size: 20px;
+  padding: 0px;
+}
+.social-links :hover{
+  color: aliceblue;
+}
+.landing-grid { 
+  background: #f4c4f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+  position: fixed;
+  margin-top: 0%;
+  width: 100%;
+  height: 100%;
+}
+.banner-text{
+  margin-left: 0;
+  margin-top: 0;
+  
+}
+.container{
+  margin-top: 0%;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height:100%;
+}
+.banner-text {
+  color:black;
+  margin-top:150px;
+}
+
+.res-link a{
+  text-decoration: none;
+  color: #9a9b9c;
+}
+
+.res-link :hover{
+  color: #000000;
+}
+.abt-1{
+  margin-top:100px;
+  padding-left: 100px;
+}
+.about{
+width:100%;
+height:100%;
+margin-top: 0px;
+}
+.align{
+  text-align: left;
+}
+li{
+  list-style-type: none;
+  text-align: justify;
+}
+.hvr :hover{
+  text-decoration: underline;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
