@@ -9,9 +9,10 @@ class Landing extends Component{
                     <Cell col={12}>
                     <div className="container">
                         <div className="banner-text">
+                        
                         <h1>SWAGATIKA PANDA</h1>
                         <h4>Full Stack Web Developer</h4>
-                        <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | DJango</p>
+                        <p>This is a basic portfolio made with react.</p>
                         <div className="social-links">
                             <a href="mailto:swagatikapanda164@gmail.com" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-email" aria-hidden="true" />Email
