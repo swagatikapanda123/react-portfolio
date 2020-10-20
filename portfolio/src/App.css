@@ -117,3 +117,20 @@ li{
   justify-content: center;
   padding-top: 2em;
 }
+.grid-gradient1{
+  background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d9a7c7,#ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d9a7c7,#ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.grid-gradient2{
+  background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff,#d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff,#d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contact {
+  font-size: 60px;
+  background: -webkit-linear-gradient(#7e0f6b,#ee85dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
